@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="/CSS Group Project/shop.css">
+    <link rel="stylesheet" href="/CSS Group Project/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="/CSS Group Project/script.js"></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <a href="/CSS Group Project/index.html">Thala <span>7.</span></a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="/CSS Group Project/index.html">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Brands <i class="arrow"></i></a></li>
+                <li><a href="#">More <i class="arrow"></i></a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <div class="search-and-user">
+                <input type="text" placeholder="Search">
+                <a href="#"><i class="fa fa-shopping-cart"></i> 0</a>
+                <a href="#"><img src="/CSS Group Project/yash.jpg" alt="User Avatar" class="user-avatar"></a>
+            </div>
+            <div class="burger" id="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+            <div class="dropdown-menu" id="dropdownMenu">
+                <ul>
+                    <li><a href="/CSS Group Project/index.html">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Brands</a></li>
+                    <li><a href="#">More</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header><br><br>
+
+    <main>
+        <section class="shopping-cart">
+            <h1>Shopping Cart</h1>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Product</th>
+                        <th>Quantity</th>
+                        <th>Price</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Seven By M.S.Dhoni W...</td>
+                        <td><span>-</span> 1 <span>+</span></td>
+                        <td>₹4,999 <span class="remove">✖</span></td>
+                    </tr>
+                    <tr>
+                        <td>Seven By M.S.Dhoni W...</td>
+                        <td><span>-</span> 1 <span>+</span></td>
+                        <td>₹4,999 <span class="remove">✖</span></td>
+                    </tr>
+                    <tr>
+                        <td>Seven By M.S.Dhoni W...</td>
+                        <td><span>-</span> 1 <span>+</span></td>
+                        <td>₹4,999 <span class="remove">✖</span></td>
+                    </tr>
+                </tbody>
+            </table>
+            <a href="#" class="continue-shopping">← Continue Shopping</a>
+        </section>
+
+        <aside class="payment-summary">
+            <div class="coupon">
+                <input type="text" placeholder="Enter Coupon Code">
+                <button>Apply Coupon</button>
+            </div>
+            <div class="summary">
+                <p>Sub Total <span>₹14,997</span></p>
+                <p>Taxes (if applicable) <span>₹199</span></p>
+                <p>Discount <span>₹0</span></p>
+                <hr>
+                <p class="total">Total <span>₹14,999</span></p>
+            </div>
+            <a href="/CSS Group Project/checkout.html"><button class="pay-now">Pay Now ₹14,999</button></a>
+            <div class="payment-methods">
+                <img src="https://t4.ftcdn.net/jpg/06/18/92/55/360_F_618925574_b3n9JfcmFr5GNa10SvNdpDFyHL5D3dIw.jpg" alt="Secure">
+                <img src="https://sellonboard.com/wp-content/uploads/2021/09/razorpay.png" alt="Razorpay">
+                <img src="https://png.pngtree.com/png-clipart/20230920/original/pngtree-vector-icon-for-secure-online-shopping-with-100-payment-protection-vector-png-image_12468844.png" alt="Payment">
+            </div>
+        </aside>
+    </main>
+</body>
+</html>
